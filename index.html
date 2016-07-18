@@ -1,39 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+  <meta charset="utf-8">
+
+  <!-- for responsive design -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Favicon -->
+  <link rel='shortcut icon' href='favicon-coffee.ico' type='image/x-icon'/ >
+
 	<title>Good Coffee</title>
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+  <!-- links to stylesheets -->
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
+
+  <!-- links to javascript/jquery -->
 	<script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 </head>
 <body>
-
-<!-- <nav>
-	<div class="col-xs-12" id="navigation">
-		<div class="col-xs-4 text-left" id="right-nav">
-			<ul>
-				<li><span id="nav-title"><a href="">Good Coffee</a></span></li>
-				<li><a href="">Coffee</a></li>
-				<li><a href="">Locations</a></li>
-			</ul>
-		</div>
-		<div class="col-xs-8 text-right" id="left-nav">
-			<ul>
-				<li><a href="">Fair Trade</a></li>
-				<li><a href="">Coffee Gear</a>
-					<ul id="drop-menu">
-						<li><a href="">Coffee</a></li>
-						<li><a href="">Mugs</a></li>
-						<li><a href="">T-Shirts</a></li>
-					</ul>
-				</li>
-			</ul>
-		</div>
-	</div>
-
-</nav> -->
 
 <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
@@ -51,10 +40,10 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Coffee <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Coffee</a></li>
         <li><a href="#">Locations</a></li>
       </ul>
-     
+
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#">Fair Trade</a></li>
         <li class="dropdown">
@@ -79,7 +68,7 @@
 
 <div class="container-fluid">
 	<div class="row">
-		<div class="col-xs-12 text-center" id="mission">
+		<div class="col-md-12 text-center" id="mission">
 			<p>Here at Good Coffee we strive to deliver the perfect experience every time. <br /> Stop by today for the best coffee experience this town has to offer.</p>
 			<button type="button" class="btn btn-lg btn-primary">Buy some Good Coffee!</button>
 		</div>
@@ -88,40 +77,34 @@
 
 <div class="container-fluid" id="description">
 	<div class="row">
-		<div class="col-xs-4">
-			<img src="Coffee_Beans.jpg" class="img-responsive">
+		<div class="col-md-4">
+			<img src="Coffee_Beans.jpg" alt="Coffee Beans" class="img-responsive">
 			<p>The freshest locally sourced coffee. Organic and fair-trade certified.</p>
 		</div>
-		<div class="col-xs-4">
-			<img src="coffee-shop-393954_640.jpg" class="img-responsive">
+		<div class="col-md-4">
+			<img src="coffee-shop-393954_640.jpg" alt="Good Coffee Shop" class="img-responsive">
 			<p>A perfect environment to meet with a friend or be alone and get work done.</p>
-			
+
 		</div>
-		<div class="col-xs-4">
-			<img src="coffee-206142_640.jpg" class="img-responsive">
+		<div class="col-md-4">
+			<img src="coffee-206142_640.jpg" alt="Espresso" class="img-responsive">
 			<p>Quality, hand crafted espresso shots pulled with the greatest of care.</p>
-			
+
 		</div>
 	</div>
 </div>
 
 <footer>
-	<div class="col-xs-12" id="page-footer">
-		<div class="col-xs-6 text-left">
-			<p>Good Coffee Co. &copy;2015</p>
-		</div>
+	<div class="col-md-6 footer" id="footer-name">
+		<p>Good Coffee Co. &copy;2016</p>
+	</div>
 
-		<div class="col-xs-6 text-right" id="footer-links">
-<!-- 			<a href="">About</a>
-			<a href="">Locations</a>
-			<a href="">Coffee</a> -->
-
+	<div class="col-md-6 footer" id="footer-links">
 		<ul class="nav navbar-nav navbar-right">
-	        <li><a href="#">About</a></li>
-	        <li><a href="#">Locations</a></li>
-	        <li><a href="#">Coffee</a></li>
-      	</ul>
-		</div>	
+      <li><a href="#">About</a></li>
+      <li><a href="#">Locations</a></li>
+      <li><a href="#">Coffee</a></li>
+   	</ul>
 	</div>
 </footer>
 </body>

@@ -14,48 +14,14 @@ body {
 	border: none;
 }
 
-/*#navigation {
-
-}
-
-#navigation a {
-	color: #F7FAFE;
-	text-decoration: none;
-}
-
-#navigation a:hover {
-	text-decoration: none;
-}
-
-#right-nav ul {
-	padding-left: 0;
-}
-
-#nav-title {
-	font-size: 1.25em;
-}
-
-#navigation li {
-	display: inline-block;
-	padding-left: 2%;
-}
-
-#drop-menu {
-	display: none;
-}
-
-#left-nav {
-	padding-top: 0.3%;
-}*/
-
 /* Title Section */
 .jumbotron {
 	background-image: url("Drip_Coffee_Bangkok.jpg");
 	background-position: center;
 	background-size: cover;
 	padding: 155px 0;
-	color: #F7FAFE;
 	margin: 0px;
+	color: #F7FAFE;
 }
 
 #title {
@@ -89,15 +55,26 @@ body {
 
 /* Footer Section */
 
-#page-footer {
+#footer-name {
+	min-height: 50px;
+}
+
+.footer p {
+	padding-top: 15px;
+}
+
+.footer {
 	background-color: #D64541;
-	padding-top: 0.5%;
 	color: #F7FAFE;
 }
 
 #footer-links a {
 	color: #F7FAFE;
-	/*padding-left: 1%;*/
+}
+
+#footer-links a:hover {
+	color: black;
+	background-color: transparent;
 }
 
 /* End Footer Section */
